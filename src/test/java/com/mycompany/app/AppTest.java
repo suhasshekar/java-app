@@ -56,6 +56,12 @@ public class AppTest
 	{
 		App object = new App();
 		int c = object.difference(5, 2);
+    }
+	
+	public void testApp4()
+	{
+		App object = new App();
+		int c = object.difference(4,1);
 		assertTrue(c == 3);
 	}
 }
