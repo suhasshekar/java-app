@@ -44,4 +44,11 @@ public class AppTest
 		int c = object.sum(3, 3);
 		assertTrue(c == 6);
 	}
+	
+	public void testApp3()
+	{
+		App object = new App();
+		int c = object.sum(2, 5);
+		assertFalse(c == 6);
+	}
 }
