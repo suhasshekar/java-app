@@ -33,6 +33,15 @@ public class AppTest
      */
     public void testApp()
     {
-        assertTrue( true );
+        App object = new App();
+		int c = object.sum(4, 5);
+		assertTrue( c == 9);
     }
+	
+	public void testApp2()
+	{
+		App object = new App();
+		int c = object.sum(3, 3);
+		assertTrue(c == 6);
+	}
 }
