@@ -51,4 +51,11 @@ public class AppTest
 		int c = object.sum(2, 5);
 		assertFalse(c == 6);
 	}
+	
+	public void testApp5()
+	{
+		App object = new App();
+		int c = object.difference(5, 2);
+		assertTrue(c == 3);
+	}
 }
